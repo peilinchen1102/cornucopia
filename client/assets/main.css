@@ -1,0 +1,282 @@
+/* Add some global styles here! */
+
+:root {
+  --red: rgb(208, 67, 12);
+  --base-bg: #f1f3f5;
+  --primary: #52c07c;
+  --secondary: #b1d69f84;
+  --citrine: #EED724ff;
+  --apple-green: #809F1Cff;
+  --dark-moss-green: #606900ff;
+  --tiffany-blue: #84C5B5ff;
+  --sinopia: #DD320Bff;
+  --faded: rgb(198, 198, 198);
+  --dark: #343a40;
+  --sea-blue:#17a2b8;
+  --xs: 5px;
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+  --font: 'Playpen Sans', cursive;
+}
+
+p {
+font-weight: 300;
+}
+
+button.btn-small {
+  font-size: 80%;
+}
+
+button.button-error {
+  color: white;
+  background: var(--red);
+}
+
+a.button {
+  color: #212529;
+  background-color: #f1f3f5;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25em;
+  padding: 0.375em 0.75em;
+  text-decoration: none;
+}
+
+.icon {
+  background-color: transparent;
+  border: none;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+
+
+/* CSS */
+.button-39 {
+  background-color: #FFFFFF;
+  border: 1px solid rgb(209,213,219);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-39:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button-39:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-39:focus-visible {
+  box-shadow: none;
+}
+
+
+.success-btn {
+  background-color: #FFFFFF;
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  color: var(--primary);
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.success-btn:hover{
+  background-color: var(--primary);
+  color: white;
+  box-shadow: 0 1px 4px 0 var(--primary);
+}
+
+.close-btn {
+  background-color: #FFFFFF;
+  border: 1px solid var(--dark);
+  border-radius: 8px;
+  color: var(--dark);
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.close-btn:hover{
+  background-color: var(--dark);
+  color: white;
+  box-shadow: 0 1px 4px 0 var(--dark);
+}
+
+.delete-btn {
+  background-color: #FFFFFF;
+  border: 1px solid var(--sinopia);
+  border-radius: 8px;
+  color: var(--sinopia);
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.delete-btn:hover{
+  background-color: var(--sinopia);
+  color: white;
+  box-shadow: 0 1px 4px 0 var(--sinopia);
+}
+
+.info-btn {
+  background-color: #FFFFFF;
+  border: 1px solid var(--sea-blue);
+  border-radius: 8px;
+  color: var(--sea-blue);
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.info-btn:hover{
+  background-color: var(--sea-blue);
+  color: white;
+  box-shadow: 0 1px 4px 0 var(--sea-blue);
+}
+
+.red{
+  background-color: var(--red);
+  color:white
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+
+.theme--light.v-list-item:hover:before {
+    opacity: 0.14;
+}
+
+
+.v-overlay-container {
+  background-color: white;
+  color:white;
+}
+
+.v-list .v-list-item--active { 
+  background-color: white!important; 
+}
+.v-list .v-list-item--active .v-list-item__title {
+  color: white !important;
+}
+
+.v-icon {
+  color: black;
+}
+
+.vuecal__menu,
+.vuecal__cell-events-count {
+  background-color: var(--primary);
+}
+.vuecal__title-bar {
+  background-color: var(--secondary);
+}
+.vuecal__cell--today,
+.vuecal__cell--current {
+  background-color: rgba(171, 245, 208, 0.4);
+}
+.vuecal:not(.vuecal--day-view) .vuecal__cell--selected {
+  background-color: rgba(235, 255, 245, 0.4);
+}
+.vuecal__cell--selected:before {
+  border-color: rgba(66, 185, 131, 0.5);
+}
+/* Cells and buttons get highlighted when an event is dragged over it. */
+.vuecal__cell--highlighted:not(.vuecal__cell--has-splits),
+.vuecal__cell-split--highlighted {
+  background-color: rgba(195, 255, 225, 0.5);
+}
+.vuecal__arrow.vuecal__arrow--highlighted,
+.vuecal__view-btn.vuecal__view-btn--highlighted {
+  background-color: rgba(136, 236, 191, 0.25);
+}
+
+.vuecal__event.claimedShift, .vuecal__event.currentOrg {
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  color: #fff;
+}
+
+.vuecal__event.unclaimedShift {
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+  color: #fff;
+}
+
+.vuecal__event.otherOrg {
+  background-color: var(--base-bg);
+  border: 1px solid var(--secondary);
+  color: black;
+}
+
+.vuecal__event.unclaimedShift {
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+  color: #fff;
+}
+
+.vuecal__event--dragging {
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary);
+  color: #fff;
+}
